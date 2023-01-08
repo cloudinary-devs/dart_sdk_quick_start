@@ -18,8 +18,8 @@ class App extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: SizedBox(
-              width: 200,
-              height: 140,
+              width: 300,
+              height: 300,
               child: Image.network(cloud()),
               ),
           ),
