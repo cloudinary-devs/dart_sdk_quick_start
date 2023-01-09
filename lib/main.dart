@@ -1,10 +1,10 @@
 import 'package:cloudinary_dart/cloudinary.dart';
-import 'package:cloudinary_dart/transformation/transformation.dart';
-import 'package:flutter/material.dart';
 import 'package:cloudinary_dart/transformation/effect/effect.dart';
 import 'package:cloudinary_dart/transformation/resize/resize.dart';
+import 'package:cloudinary_dart/transformation/transformation.dart';
+import 'package:flutter/material.dart';
 
-var cloudinary=Cloudinary.fromStringUrl('cloudinary://373364719177799:aa9f1c5a3d4c6ddd85d7c5f7673c4500@demo');
+var cloudinary=Cloudinary.fromStringUrl('<api_environment_variable>');
 
 void main() async{
   cloudinary.config.urlConfig.secure = true;
