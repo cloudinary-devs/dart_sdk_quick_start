@@ -29,7 +29,7 @@ class App extends StatelessWidget {
 }
 
 cloud() {
-  String url = (cloudinary.image('docs/models')
+  String url = (cloudinary.image('cld-sample')
     ..transformation(Transformation()
       ..resize(Resize.fill()
         ..width(250)
