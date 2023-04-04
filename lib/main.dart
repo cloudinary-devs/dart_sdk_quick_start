@@ -1,7 +1,7 @@
-import 'package:cloudinary_dart/cloudinary.dart';
-import 'package:cloudinary_dart/transformation/effect/effect.dart';
-import 'package:cloudinary_dart/transformation/resize/resize.dart';
-import 'package:cloudinary_dart/transformation/transformation.dart';
+import 'package:cloudinary_url_gen/cloudinary.dart';
+import 'package:cloudinary_url_gen/transformation/effect/effect.dart';
+import 'package:cloudinary_url_gen/transformation/resize/resize.dart';
+import 'package:cloudinary_url_gen/transformation/transformation.dart';
 import 'package:flutter/material.dart';
 
 var cloudinary=Cloudinary.fromStringUrl('<api_environment_variable>');
