@@ -1,1 +1,3 @@
-Quick start example from the Cloudinary [Dart SDK docs](https://cloudinary.com/documentation/dart_quick_start).
+## Dart Quick Start
+
+This is a simple Dart quickstart app that uploads an image to Cloudinary and generates a delivery URL with a basic transformation (resize + effect). It quickly demonstrates how to use the Cloudinary Dart SDK for uploads and transformations.
